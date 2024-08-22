@@ -8,7 +8,12 @@ This JavaScript library provides a customizable transcript overlay that can be e
 To use the `swisstxt-lib.js` library on your website, simply include the following script tag in your HTML:
 
 ```html
-<script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" data-identifier="swisstxt-lib"></script>
+    <script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
+    data-identifier="swisstxt-lib"
+    data-site="2"
+    data-path="/"
+    data-room-id="98irz1"
+    data-de></script>
 ```
 
 ## Configuration Parameters
@@ -76,15 +81,16 @@ The library supports several `data-*` attributes that allow you to customize its
 Here is an example of a fully configured script tag:
 
 ```html
-<script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
+    <script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
     data-identifier="swisstxt-lib"
-    data-site="1"
-    data-path="/your-path"
-    data-room-id="7c1fmu"
+    data-site="2"
+    data-path="/"
+    data-room-id="98irz1"
     data-button-text="Transcript"
-    data-color="3"
+    data-color="2"
     data-height="300"
     data-en
+    data-it
     data-fr
     data-de></script>
 ```
@@ -92,9 +98,9 @@ Here is an example of a fully configured script tag:
 In this example:
 - The script is identified as `swisstxt-lib`.
 - The content is sourced from `https://www.liveaccess.online`.
-- The button and overlay are active on the `/your-path` URL.
-- The room ID for the iframe is `7c1fmu`.
+- The button and overlay are active on the `/test-site` URL.
+- The room ID for the iframe is `98irz1`.
 - The button text is set to `Transcript`.
-- The color scheme `3` is used.
+- The color scheme `2` is used.
 - The overlay height is set to `300px`.
-- The available languages are English (`en`), French (`fr`), and German (`de`).
+- The available languages are English (`en`), Italian (`fr`), French (`fr`), and German (`de`).
