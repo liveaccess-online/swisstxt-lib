@@ -77,7 +77,7 @@ Here is an example of a fully configured script tag:
 
 ```html
 <script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
-    data-identifier="swisstxt-button"
+    data-identifier="swisstxt-lib"
     data-site="1"
     data-path="/your-path"
     data-room-id="7c1fmu"
@@ -90,7 +90,7 @@ Here is an example of a fully configured script tag:
 ```
 
 In this example:
-- The script is identified as `swisstxt-button`.
+- The script is identified as `swisstxt-lib`.
 - The content is sourced from `https://www.liveaccess.online`.
 - The button and overlay are active on the `/your-path` URL.
 - The room ID for the iframe is `7c1fmu`.
