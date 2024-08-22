@@ -11,7 +11,7 @@ To use the `swisstxt-lib.js` library on your website, simply include the followi
     <script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
     data-identifier="swisstxt-lib"
     data-site="2"
-    data-path="/"
+    data-url="https://www.my-site/test"
     data-room-id="98irz1"
     data-de></script>
 ```
@@ -34,11 +34,11 @@ The library supports several `data-*` attributes that allow you to customize its
   data-site="1"
   ```
 
-### `data-path` (required)
-- **Description**: Defines the path on which the script should be activated. The overlay and button will only be active on this path.
+### `data-url` (required)
+- **Description**: Defines the url on which the script should be activated. The overlay and button will only be active on this path.
 - **Usage**:
   ```html
-  data-path="/your-path"
+  data-url="https://www.my-site/test"
   ```
 
 ### `data-room-id` (required)
@@ -84,7 +84,7 @@ Here is an example of a fully configured script tag:
     <script src="https://liveaccess-online.github.io/swisstxt-lib/swisstxt-lib.min.js" 
     data-identifier="swisstxt-lib"
     data-site="2"
-    data-path="/"
+    data-url="https://www.my-site/test"
     data-room-id="98irz1"
     data-button-text="Transcript"
     data-color="2"
